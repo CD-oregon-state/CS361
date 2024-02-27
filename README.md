@@ -1,4 +1,5 @@
-To request ticker data: visit https://daugherc.pythonanywhere.com/stock?ticker=YOURTICKERHERE
+To request data using this microservice, submit a GET request to https://daugherc.pythonanywhere.com/stock?ticker=YourTickerHere
+This can be done with a browser, with software such as Postman, or (most usefully) via a programming language of your choice (e.g., Python's Request library can send a GET request).
 Example: https://daugherc.pythonanywhere.com/stock?ticker=AAPL is used to request data related to Apple, Inc.
 
 To receive data: data is sent back via HTTP after submitting the GET request above. Data comes back in JSON format. Example data:
